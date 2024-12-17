@@ -41,6 +41,14 @@ li {
     margin: 5px 0;
 }
 
+.item1 { grid-area: header; }
+.item2 { grid-area: education; }
+.item3 { grid-area: course; }
+.item4 { grid-area: experience; }
+.item5 { grid-area: hobbies; }
+.item6 { grid-area: goals; }
+.item7 { grid-area: gallery; }
+
 .grid-container {
     display: grid;
     grid-template-areas:
@@ -73,14 +81,6 @@ li {
 .grid-container > div h2 {
     text-align: center;
 }
-
-.item1 { grid-area: header; }
-.item2 { grid-area: education; }
-.item3 { grid-area: course; }
-.item4 { grid-area: experience; }
-.item5 { grid-area: hobbies; }
-.item6 { grid-area: goals; }
-.item7 { grid-area: gallery; }
 
 table {
     width: 100%;
